@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 # Carregar os dados diretamente do arquivo local
-arquivo = 'C:/Users/User/Documents/Data Analysis/Projeto_Estoque/movimentos_facas/MOVIMENTOS - FACAS.xlsx'
+arquivo = 'MOVIMENTOS - FACAS.xlsx'
 # Certifique-se de que 'Data' está no formato datetime
 df = pd.read_excel(arquivo, parse_dates=['Data'])  
 
